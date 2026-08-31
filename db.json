@@ -1,5 +1,5 @@
 {
- "base_files_url": "https://raw.githubusercontent.com/rmonic79/rmcores/0000000000000000000000000000000000000000/",
+ "base_files_url": "https://raw.githubusercontent.com/rmonic79/rmcores/4ffffe4eb56ed2e7a01b44ec1f6025c1d1dfd6b4/",
  "db_id": "rmonic79/rmcores",
  "files": {
   "_Arcade/_rmCores/_alternatives/_Night Slashers/rm Night Slashers (Japan Rev 1.2, DE-0397-0 PCB).mra": {
@@ -19,8 +19,8 @@
    "size": 4390
   },
   "_Arcade/cores/rmNightSlashers_20260831.rbf": {
-   "hash": "f0b9f0d9cff72f48ba54fc1f1db71c62",
-   "size": 4446068,
+   "hash": "1cf56e203846e08e3d5fc2308d318c76",
+   "size": 4462900,
    "tangle": [
     "rmnightslashers_core"
    ]
@@ -33,6 +33,6 @@
   "_Arcade/_rmCores/_alternatives/_Night Slashers": {},
   "_Arcade/cores": {}
  },
- "timestamp": 1788203475,
+ "timestamp": 1788210038,
  "v": 1
 }
