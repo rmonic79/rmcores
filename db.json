@@ -1,0 +1,38 @@
+{
+ "base_files_url": "https://raw.githubusercontent.com/rmonic79/rmcores/0000000000000000000000000000000000000000/",
+ "db_id": "rmonic79/rmcores",
+ "files": {
+  "_Arcade/_rmCores/_alternatives/_Night Slashers/rm Night Slashers (Japan Rev 1.2, DE-0397-0 PCB).mra": {
+   "hash": "297f25126e1a592d33d6da0bc89079db",
+   "size": 4636
+  },
+  "_Arcade/_rmCores/_alternatives/_Night Slashers/rm Night Slashers (Over Sea Rev 1.2, DE-0397-0 PCB).mra": {
+   "hash": "1bd77e57a5d91250260b15c65e9b704d",
+   "size": 4639
+  },
+  "_Arcade/_rmCores/_alternatives/_Night Slashers/rm Night Slashers (US Rev 1.2, DE-0395-1 PCB).mra": {
+   "hash": "204636ac33456fbbcc95f1cc7aa3fe31",
+   "size": 4219
+  },
+  "_Arcade/_rmCores/rm Night Slashers (Korea Rev 1.3, DE-0397-0 PCB).mra": {
+   "hash": "776b306f804464da200019572d0c67fc",
+   "size": 4390
+  },
+  "_Arcade/cores/rmNightSlashers_20260831.rbf": {
+   "hash": "f0b9f0d9cff72f48ba54fc1f1db71c62",
+   "size": 4446068,
+   "tangle": [
+    "rmnightslashers_core"
+   ]
+  }
+ },
+ "folders": {
+  "_Arcade": {},
+  "_Arcade/_rmCores": {},
+  "_Arcade/_rmCores/_alternatives": {},
+  "_Arcade/_rmCores/_alternatives/_Night Slashers": {},
+  "_Arcade/cores": {}
+ },
+ "timestamp": 1788203475,
+ "v": 1
+}
