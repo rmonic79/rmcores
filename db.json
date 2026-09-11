@@ -1,5 +1,5 @@
 {
- "base_files_url": "https://raw.githubusercontent.com/rmonic79/rmcores/721e4f3ab5c95411f49c0aec64775de845c3ce38/",
+ "base_files_url": "https://raw.githubusercontent.com/rmonic79/rmcores/b4c44dd3486668107512deddd1bf2620abec171c/",
  "db_id": "rmonic79/rmcores",
  "files": {
   "_Arcade/_rmCores/_alternatives/_Night Slashers/rm Night Slashers (Japan Rev 1.2, DE-0397-0 PCB).mra": {
@@ -38,6 +38,66 @@
     7
    ]
   },
+  "_Arcade/_rmCores/_alternatives/_rm Seibu Cup Soccer/rm Olympic Soccer '92 (set 1).mra": {
+   "hash": "d208de5e521e1a682a5a98f4ebadb4b5",
+   "size": 5164,
+   "tags": [
+    0,
+    1,
+    2,
+    5,
+    8,
+    9
+   ]
+  },
+  "_Arcade/_rmCores/_alternatives/_rm Seibu Cup Soccer/rm Olympic Soccer '92 (set 2).mra": {
+   "hash": "90f739db1583e4595f87816fe3786b7d",
+   "size": 5165,
+   "tags": [
+    0,
+    1,
+    2,
+    5,
+    8,
+    9
+   ]
+  },
+  "_Arcade/_rmCores/_alternatives/_rm Seibu Cup Soccer/rm Olympic Soccer '92 (set 3).mra": {
+   "hash": "1197e8381a944ef2fdabe0148c27ff9c",
+   "size": 5153,
+   "tags": [
+    0,
+    1,
+    2,
+    5,
+    8,
+    9
+   ]
+  },
+  "_Arcade/_rmCores/_alternatives/_rm Seibu Cup Soccer/rm Seibu Cup Soccer (set 2).mra": {
+   "hash": "6d6260d6c913d7ef8c43aeec2e0ac4f8",
+   "size": 4928,
+   "tags": [
+    0,
+    1,
+    2,
+    5,
+    8,
+    9
+   ]
+  },
+  "_Arcade/_rmCores/_alternatives/_rm Seibu Cup Soccer/rm Seibu Cup Soccer (set 3).mra": {
+   "hash": "14e92384d434fcc4486fc8c1d6e7c64f",
+   "size": 4924,
+   "tags": [
+    0,
+    1,
+    2,
+    5,
+    8,
+    9
+   ]
+  },
   "_Arcade/_rmCores/rm Night Slashers (Korea Rev 1.3, DE-0397-0 PCB).mra": {
    "hash": "13c88e3dbca92fdb3d6580840e885a9a",
    "size": 4660,
@@ -47,6 +107,17 @@
     2,
     6,
     7
+   ]
+  },
+  "_Arcade/_rmCores/rm Seibu Cup Soccer (set 1).mra": {
+   "hash": "fd35dea56c7e2d109d331f57ac6d7b98",
+   "size": 4741,
+   "tags": [
+    0,
+    1,
+    2,
+    8,
+    9
    ]
   },
   "_Arcade/cores/rmNightSlashers_20260903.rbf": {
@@ -62,6 +133,21 @@
    ],
    "tangle": [
     "rmnightslashers_core"
+   ]
+  },
+  "_Arcade/cores/rmSeibuCupSoccer_20260910.rbf": {
+   "hash": "e3415ef81b94158c8381f08a2d977d14",
+   "size": 4326616,
+   "tags": [
+    0,
+    1,
+    3,
+    4,
+    8,
+    9
+   ],
+   "tangle": [
+    "rmseibucupsoccer_core"
    ]
   }
  },
@@ -90,6 +176,12 @@
     1
    ]
   },
+  "_Arcade/_rmCores/_alternatives/_rm Seibu Cup Soccer": {
+   "tags": [
+    0,
+    1
+   ]
+  },
   "_Arcade/cores": {
    "tags": [
     0,
@@ -106,8 +198,10 @@
   "mra": 2,
   "nightslashers": 7,
   "rmcores": 1,
-  "rmnightslashers": 6
+  "rmnightslashers": 6,
+  "rmseibucupsoccer": 8,
+  "seibucupsoccer": 9
  },
- "timestamp": 1788454377,
+ "timestamp": 1789116346,
  "v": 1
 }
