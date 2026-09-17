@@ -1,0 +1,67 @@
+<misterromdescription>
+  <name>rm Ninja Emaki (Tecfri license)</name>
+  <setname>ninjemat</setname>
+  <rbf>rmGalivan</rbf>
+  <mameversion>0289</mameversion>
+  <year>1986</year>
+  <manufacturer>Nichibutsu (Tecfri license)</manufacturer>
+  <category>Platform</category>
+  <rotation>vertical</rotation>
+  <players>2</players>
+  <num_buttons>2</num_buttons>
+  <buttons default="A,B,Start" names="Shot,Weapon,-,-,-,-,Start,Coin,Pause"/>
+  <switches default="DF,FF" base="0">
+    <dip name="Lives" bits="0,1" ids="6,5,4,3"/>
+    <dip name="Bonus Life" bits="2,3" ids="50k and every 90k,20k and every 90k,50k and every 60k,20k and every 60k"/>
+    <dip name="Demo Sounds" bits="4" ids="Off,On"/>
+    <dip name="Cabinet" bits="5" ids="Upright,Cocktail"/>
+    <dip name="Power Invulnerability" bits="6" ids="On,Off"/>
+    <dip name="Life Invulnerability" bits="7" ids="On,Off"/>
+    <dip name="Coin A" bits="8,9" ids="Free Play,2C 1C,1C 2C,1C 1C"/>
+    <dip name="Coin B" bits="10,11" ids="3C 1C,2C 3C,1C 6C,1C 3C"/>
+    <dip name="Difficulty" bits="12" ids="Hard,Easy"/>
+    <dip name="Flip Screen" bits="13" ids="On,Off"/>
+  </switches>
+  <!-- Selezione scheda: scaricata dall'HPS PRIMA delle ROM
+       (index=1 -> index=0 -> index=254), quindi e' gia' valida
+       mentre il core decide dove mandare i byte.
+       00 = Galivan / Dangar     01 = Ninja Emaki -->
+  <rom index="1">
+    <part>04</part>
+  </rom>
+  <rom index="0" zip="ninjemak.zip" md5="None">
+    <!-- MAIN @ 0x000000  (da maincpu) -->
+    <part name="ninjemat/10.e19" crc="804e7e4c"/>
+    <part name="ninjemat/9.e17" crc="55d8f1a1"/>
+    <!-- MAINBNK @ 0x00C000  (da piu' pezzi) -->
+    <!-- banchi 0-1 = mappa collisioni col terreno. NON dumpata per ninjemat: si usa quella di ninjemak, che ha gli stessi livelli byte per byte -->
+    <part name="ninjemak.3" crc="68c92bf6" offset="0x0" length="0x4000"/>
+    <!-- banchi 2-3 = codice (8.e16), gli stessi banchi 2-3 di ninjemak -->
+    <part name="ninjemat/8.e16" crc="8c5782da"/>
+    <!-- AUDIO @ 0x014000  (da audiocpu) -->
+    <part name="ninjemat/16.e13" crc="dd7e0be2"/>
+    <part name="ninjemat/15.e15" crc="236c9824"/>
+    <!-- CHARS @ 0x020000  (da chars) -->
+    <part name="ninjemat/7.c7" crc="d13c22db"/>
+    <!-- BGMAP @ 0x028000  (da bgtiles) -->
+    <part name="ninjemat/5.c1" crc="e8469d44"/>
+    <part name="ninjemat/6.c3" crc="163a024e"/>
+    <!-- TILES @ 0x030000  (da tiles) -->
+    <part name="ninjemak.8" crc="655f0a58"/>
+    <part name="ninjemat/3.a4" crc="b4416f53"/>
+    <part name="ninjemak.10" crc="955b5c45"/>
+    <part name="ninjemak.11" crc="bbd2e51c"/>
+    <!-- SPRITES @ 0x050000  (da sprites) -->
+    <part name="ninjemat/12.a4" crc="3cb41a2d"/>
+    <part name="ninjemat/11.a6" crc="e487754c"/>
+    <part name="ninjemat/14.a1" crc="a354129b"/>
+    <part name="ninjemat/13.a3" crc="7e52abd4"/>
+    <!-- PROMS @ 0x070000  (da proms) -->
+    <part name="ninjemat/7114.a9" crc="001a762e"/>
+    <part name="ninjemat/7114.a10" crc="30556466"/>
+    <part name="ninjemat/7114.a11" crc="1fe3d4fd"/>
+    <part name="yncp-2d.bin" crc="23bade78"/>
+    <!-- SPRBANK @ 0x070400  (da sprpalbank_prom) -->
+    <part name="ninjemat/7114.a7" crc="6d17bab4"/>
+  </rom>
+</misterromdescription>

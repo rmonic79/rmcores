@@ -1,0 +1,65 @@
+<misterromdescription>
+  <name>rm Youma Ninpou Chou (Japan, alt)</name>
+  <setname>youma2</setname>
+  <rbf>rmGalivan</rbf>
+  <mameversion>0289</mameversion>
+  <year>1986</year>
+  <manufacturer>Nichibutsu</manufacturer>
+  <category>Platform</category>
+  <rotation>vertical</rotation>
+  <players>2</players>
+  <num_buttons>3</num_buttons>
+  <buttons default="A,B,X,Start" names="Shot,Weapon,Test,-,-,-,Start,Coin,Pause"/>
+  <switches default="FF,7C" base="0">
+    <dip name="Lives" bits="0,1" ids="6,5,4,3"/>
+    <dip name="Bonus Life" bits="2,3" ids="50k and every 90k,20k and every 90k,50k and every 60k,20k and every 60k"/>
+    <dip name="Coin A" bits="4,5" ids="Free Play,2C 1C,1C 2C,1C 1C"/>
+    <dip name="Coin B" bits="6,7" ids="2C 3C,2C 1C,1C 2C,1C 1C"/>
+    <dip name="Demo Sounds" bits="8" ids="On,Off"/>
+    <dip name="Cabinet" bits="9" ids="Upright,Cocktail"/>
+    <dip name="Difficulty" bits="10" ids="Hard,Easy"/>
+    <dip name="Flip Screen" bits="13" ids="On,Off"/>
+    <dip name="Allow Continue" bits="14,15" ids="99 Times,5 Times,3 Times,No"/>
+  </switches>
+  <!-- Selezione scheda: scaricata dall'HPS PRIMA delle ROM
+       (index=1 -> index=0 -> index=254), quindi e' gia' valida
+       mentre il core decide dove mandare i byte.
+       00 = Galivan / Dangar     01 = Ninja Emaki -->
+  <rom index="1">
+    <part>01</part>
+  </rom>
+  <rom index="0" zip="ninjemak.zip" md5="None">
+    <!-- MAIN @ 0x000000  (da maincpu) -->
+    <part name="youma2/1.1d" crc="171dbe99"/>
+    <part name="youma2/2.3d" crc="e502d62a"/>
+    <!-- MAINBNK @ 0x00C000  (da maincpu) -->
+    <part name="youma2/3.4d" crc="cb84745c"/>
+    <!-- AUDIO @ 0x014000  (da audiocpu) -->
+    <part name="ninjemak.12" crc="3d1cd329"/>
+    <part name="ninjemak.13" crc="ac3a0b81"/>
+    <!-- CHARS @ 0x020000  (da chars) -->
+    <part name="youma2/4.7d" crc="40aeffd8"/>
+    <!-- BGMAP @ 0x028000  (da bgtiles) -->
+    <part name="ninjemak.7" crc="80c20d36"/>
+    <part name="ninjemak.6" crc="1da7a651"/>
+    <!-- TILES @ 0x030000  (da tiles) -->
+    <part name="ninjemak.8" crc="655f0a58"/>
+    <part name="ninjemak.9" crc="934e1703"/>
+    <part name="ninjemak.10" crc="955b5c45"/>
+    <part name="ninjemak.11" crc="bbd2e51c"/>
+    <!-- SPRITES @ 0x050000  (da sprites) -->
+    <part name="ninjemak.16" crc="8df93fed"/>
+    <part name="ninjemak.17" crc="a3efd0fc"/>
+    <part name="ninjemak.14" crc="bff332d3"/>
+    <part name="ninjemak.15" crc="56430ed4"/>
+    <!-- PROMS @ 0x070000  (da proms) -->
+    <part name="ninjemak.pr1" crc="8a62d4e4"/>
+    <part name="ninjemak.pr2" crc="2ccf976f"/>
+    <part name="ninjemak.pr3" crc="16b2a7a4"/>
+    <part name="yncp-2d.bin" crc="23bade78"/>
+    <!-- SPRBANK @ 0x070400  (da sprpalbank_prom) -->
+    <part name="yncp-7f.bin" crc="262d0809"/>
+    <!-- BLIT @ 0x070500  (da nb1414m4) -->
+    <part name="youma2/5.15d" crc="1b4f64aa"/>
+  </rom>
+</misterromdescription>
