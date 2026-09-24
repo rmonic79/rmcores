@@ -1,5 +1,5 @@
 {
- "base_files_url": "https://raw.githubusercontent.com/rmonic79/rmcores/6f538af88e1787706922f6f633f6f56e21c73f8f/",
+ "base_files_url": "https://raw.githubusercontent.com/rmonic79/rmcores/085c6eff2367af67cceb6cbe1fbfd97bca1e93f3/",
  "db_id": "rmonic79/rmcores",
  "files": {
   "_Arcade/_rmCores/_alternatives/_Night Slashers/rm Night Slashers (Japan Rev 1.2, DE-0397-0 PCB).mra": {
@@ -327,8 +327,8 @@
    ]
   },
   "_Arcade/_rmCores/_alternatives/_rm Ninja Emaki/rm Ninja Emaki (Tecfri license).mra": {
-   "hash": "65ead2cd7577688ba19b14d3c87a52f6",
-   "size": 3277,
+   "hash": "26b0ec90ba9139ca7abe976ee8b26e98",
+   "size": 3217,
    "tags": [
     0,
     1,
@@ -339,8 +339,8 @@
    ]
   },
   "_Arcade/_rmCores/_alternatives/_rm Ninja Emaki/rm Youma Ninpou Chou (Game Electronics bootleg, set 1).mra": {
-   "hash": "e2c605f792c9be994b053d4779fa569a",
-   "size": 2978,
+   "hash": "83f75a7f57b2e2d9c43367f1dcb6cafb",
+   "size": 2921,
    "tags": [
     0,
     1,
@@ -351,8 +351,8 @@
    ]
   },
   "_Arcade/_rmCores/_alternatives/_rm Ninja Emaki/rm Youma Ninpou Chou (Game Electronics bootleg, set 2).mra": {
-   "hash": "548cf98109d6a281bca25c5b16e8a87e",
-   "size": 2952,
+   "hash": "ad9e7ced53601b810efe3add73333ab5",
+   "size": 2895,
    "tags": [
     0,
     1,
@@ -363,8 +363,8 @@
    ]
   },
   "_Arcade/_rmCores/_alternatives/_rm Ninja Emaki/rm Youma Ninpou Chou (Japan).mra": {
-   "hash": "dcbc0d256d109ff29bc79639f8ea3b74",
-   "size": 2975,
+   "hash": "b50488ea5fe3bfb2a4039b154ea6cf17",
+   "size": 2917,
    "tags": [
     0,
     1,
@@ -375,8 +375,8 @@
    ]
   },
   "_Arcade/_rmCores/_alternatives/_rm Ninja Emaki/rm Youma Ninpou Chou (Japan, alt).mra": {
-   "hash": "79c4002f4e32ebea0781747e8ed95258",
-   "size": 2947,
+   "hash": "03ede584d70231c21af70717f10b2dfc",
+   "size": 2889,
    "tags": [
     0,
     1,
@@ -619,8 +619,8 @@
    ]
   },
   "_Arcade/_rmCores/rm Ninja Emaki (US).mra": {
-   "hash": "4a8f9161c5457c622e07ca2d4f802808",
-   "size": 2929,
+   "hash": "dbaa7615aad56c87656fdffb8f1e8844",
+   "size": 2871,
    "tags": [
     0,
     1,
@@ -820,6 +820,6 @@
   "seibucupsoccer": 11,
   "taitoasuka": 13
  },
- "timestamp": 1790236174,
+ "timestamp": 1790238165,
  "v": 1
 }
