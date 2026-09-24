@@ -1,5 +1,5 @@
 {
- "base_files_url": "https://raw.githubusercontent.com/rmonic79/rmcores/a5685a763ebee7d41ce7f84576b635629c657461/",
+ "base_files_url": "https://raw.githubusercontent.com/rmonic79/rmcores/6f538af88e1787706922f6f633f6f56e21c73f8f/",
  "db_id": "rmonic79/rmcores",
  "files": {
   "_Arcade/_rmCores/_alternatives/_Night Slashers/rm Night Slashers (Japan Rev 1.2, DE-0397-0 PCB).mra": {
@@ -36,6 +36,270 @@
     5,
     8,
     9
+   ]
+  },
+  "_Arcade/_rmCores/_alternatives/_rm Asuka & Asuka/rm Asuka & Asuka (Japan).mra": {
+   "hash": "32254b77a0a203928e2f1e85ac678fa3",
+   "size": 3576,
+   "tags": [
+    0,
+    1,
+    2,
+    5,
+    12,
+    13
+   ]
+  },
+  "_Arcade/_rmCores/_alternatives/_rm Asuka & Asuka/rm Asuka & Asuka (Japan, rev 1).mra": {
+   "hash": "9d9af1ba4e8e93f4ad9172fed14d51e3",
+   "size": 3715,
+   "tags": [
+    0,
+    1,
+    2,
+    5,
+    12,
+    13
+   ]
+  },
+  "_Arcade/_rmCores/_alternatives/_rm Bonze Adventure/rm Bonze Adventure (US, rev 1).mra": {
+   "hash": "e175288c7aaf615597da7fc89c95b8f0",
+   "size": 5433,
+   "tags": [
+    0,
+    1,
+    2,
+    5,
+    12,
+    13
+   ]
+  },
+  "_Arcade/_rmCores/_alternatives/_rm Bonze Adventure/rm Bonze Adventure (World).mra": {
+   "hash": "4935a113330bfacfe71730669878f127",
+   "size": 5422,
+   "tags": [
+    0,
+    1,
+    2,
+    5,
+    12,
+    13
+   ]
+  },
+  "_Arcade/_rmCores/_alternatives/_rm Bonze Adventure/rm Bonze Adventure (World, prototype, newer).mra": {
+   "hash": "499ebb89007b0fb91e2cd6fc1fa102b6",
+   "size": 6116,
+   "tags": [
+    0,
+    1,
+    2,
+    5,
+    12,
+    13
+   ]
+  },
+  "_Arcade/_rmCores/_alternatives/_rm Bonze Adventure/rm Bonze Adventure (World, prototype, older).mra": {
+   "hash": "2b910cc24ed872e34c9fff5a3a8f9d03",
+   "size": 7291,
+   "tags": [
+    0,
+    1,
+    2,
+    5,
+    12,
+    13
+   ]
+  },
+  "_Arcade/_rmCores/_alternatives/_rm Bonze Adventure/rm Jigoku Meguri (Japan).mra": {
+   "hash": "64469dfb3ee62047e9361bcdc2af057f",
+   "size": 5415,
+   "tags": [
+    0,
+    1,
+    2,
+    5,
+    12,
+    13
+   ]
+  },
+  "_Arcade/_rmCores/_alternatives/_rm Bonze Adventure/rm Jigoku Meguri (Japan, rev 1).mra": {
+   "hash": "fcc92572295657a487e8e3d506c8649e",
+   "size": 5424,
+   "tags": [
+    0,
+    1,
+    2,
+    5,
+    12,
+    13
+   ]
+  },
+  "_Arcade/_rmCores/_alternatives/_rm Cadash/rm Cadash (France).mra": {
+   "hash": "2de0a1a895f604d3d45b250eb0ea5108",
+   "size": 3533,
+   "tags": [
+    0,
+    1,
+    2,
+    5,
+    12,
+    13
+   ]
+  },
+  "_Arcade/_rmCores/_alternatives/_rm Cadash/rm Cadash (Germany, oldest).mra": {
+   "hash": "7ca1e2377d45dfd70ad60cf844c76e25",
+   "size": 3544,
+   "tags": [
+    0,
+    1,
+    2,
+    5,
+    12,
+    13
+   ]
+  },
+  "_Arcade/_rmCores/_alternatives/_rm Cadash/rm Cadash (Germany, version 1).mra": {
+   "hash": "78d888f26532c303847e36233b27e41f",
+   "size": 3553,
+   "tags": [
+    0,
+    1,
+    2,
+    5,
+    12,
+    13
+   ]
+  },
+  "_Arcade/_rmCores/_alternatives/_rm Cadash/rm Cadash (Italy).mra": {
+   "hash": "d23a318042beb6cf4bf97b775cfba6d6",
+   "size": 3540,
+   "tags": [
+    0,
+    1,
+    2,
+    5,
+    12,
+    13
+   ]
+  },
+  "_Arcade/_rmCores/_alternatives/_rm Cadash/rm Cadash (Japan, oldest).mra": {
+   "hash": "2b73295646d377a04748ff10db31d7d7",
+   "size": 3537,
+   "tags": [
+    0,
+    1,
+    2,
+    5,
+    12,
+    13
+   ]
+  },
+  "_Arcade/_rmCores/_alternatives/_rm Cadash/rm Cadash (Japan, version 1).mra": {
+   "hash": "6243a81c1eb28c8372ac592b0174c00e",
+   "size": 3548,
+   "tags": [
+    0,
+    1,
+    2,
+    5,
+    12,
+    13
+   ]
+  },
+  "_Arcade/_rmCores/_alternatives/_rm Cadash/rm Cadash (Japan, version 2).mra": {
+   "hash": "88a69ceb08b36b3854ff226f5b39efbf",
+   "size": 3546,
+   "tags": [
+    0,
+    1,
+    2,
+    5,
+    12,
+    13
+   ]
+  },
+  "_Arcade/_rmCores/_alternatives/_rm Cadash/rm Cadash (Prototype).mra": {
+   "hash": "a9b94d1127d4c4e6972c56e0b827ad5d",
+   "size": 3548,
+   "tags": [
+    0,
+    1,
+    2,
+    5,
+    12,
+    13
+   ]
+  },
+  "_Arcade/_rmCores/_alternatives/_rm Cadash/rm Cadash (Spain, oldest).mra": {
+   "hash": "770cfc817f78874b94e726e719f3e0bb",
+   "size": 3582,
+   "tags": [
+    0,
+    1,
+    2,
+    5,
+    12,
+    13
+   ]
+  },
+  "_Arcade/_rmCores/_alternatives/_rm Cadash/rm Cadash (Spain, version 1).mra": {
+   "hash": "1d865442e514c75af3fcc26d7a115294",
+   "size": 3515,
+   "tags": [
+    0,
+    1,
+    2,
+    5,
+    12,
+    13
+   ]
+  },
+  "_Arcade/_rmCores/_alternatives/_rm Cadash/rm Cadash (US, version 1).mra": {
+   "hash": "f20e2ed0f90e92b736f844be4800c781",
+   "size": 3548,
+   "tags": [
+    0,
+    1,
+    2,
+    5,
+    12,
+    13
+   ]
+  },
+  "_Arcade/_rmCores/_alternatives/_rm Cadash/rm Cadash (US, version 2).mra": {
+   "hash": "882c9f5f31390526196a774af51937e6",
+   "size": 3546,
+   "tags": [
+    0,
+    1,
+    2,
+    5,
+    12,
+    13
+   ]
+  },
+  "_Arcade/_rmCores/_alternatives/_rm Cadash/rm Cadash (World) LINK MASTER.mra": {
+   "hash": "350a40d165c0a49d34fab15e75677ccf",
+   "size": 4037,
+   "tags": [
+    0,
+    1,
+    2,
+    5,
+    12,
+    13
+   ]
+  },
+  "_Arcade/_rmCores/_alternatives/_rm Cadash/rm Cadash (World) LINK SLAVE.mra": {
+   "hash": "81e8cddcb502e0cdf1ac4ff5c3391938",
+   "size": 4036,
+   "tags": [
+    0,
+    1,
+    2,
+    5,
+    12,
+    13
    ]
   },
   "_Arcade/_rmCores/_alternatives/_rm Cosmo Police Galivan/rm Cosmo Police Galivan (12-11-1985).mra": {
@@ -182,6 +446,42 @@
     11
    ]
   },
+  "_Arcade/_rmCores/_alternatives/_rm U.N. Defense Force - Earth Joker/rm U.N. Defense Force - Earth Joker (Japan, prototype).mra": {
+   "hash": "83a14a6789f44664354ad4fa5bb8b625",
+   "size": 3928,
+   "tags": [
+    0,
+    1,
+    2,
+    5,
+    12,
+    13
+   ]
+  },
+  "_Arcade/_rmCores/_alternatives/_rm U.N. Defense Force - Earth Joker/rm U.N. Defense Force - Earth Joker (US-Japan, set 2).mra": {
+   "hash": "2c0e7b1ec9ec2939edbe8fe8e8c2cc21",
+   "size": 3919,
+   "tags": [
+    0,
+    1,
+    2,
+    5,
+    12,
+    13
+   ]
+  },
+  "_Arcade/_rmCores/_alternatives/_rm U.N. Defense Force - Earth Joker/rm U.N. Defense Force - Earth Joker (US-Japan, set 3).mra": {
+   "hash": "6b108bfeb516d06b2388d4b8c2288c04",
+   "size": 3819,
+   "tags": [
+    0,
+    1,
+    2,
+    5,
+    12,
+    13
+   ]
+  },
   "_Arcade/_rmCores/_alternatives/_rm Ufo Robo Dangar/rm Ufo Robo Dangar (12-1-1986).mra": {
    "hash": "b01a9d0d36292f2608b222d5eaa29d40",
    "size": 2563,
@@ -230,6 +530,39 @@
     7
    ]
   },
+  "_Arcade/_rmCores/rm Asuka & Asuka (World).mra": {
+   "hash": "1242666a0750bab935a7444dc94c9714",
+   "size": 5268,
+   "tags": [
+    0,
+    1,
+    2,
+    12,
+    13
+   ]
+  },
+  "_Arcade/_rmCores/rm Bonze Adventure (World, rev 1).mra": {
+   "hash": "079a0bf0d1be2e8848fb8f944e84eafe",
+   "size": 5418,
+   "tags": [
+    0,
+    1,
+    2,
+    12,
+    13
+   ]
+  },
+  "_Arcade/_rmCores/rm Cadash (World).mra": {
+   "hash": "a04490a6178424ea5bf5d7604f8b98d4",
+   "size": 3807,
+   "tags": [
+    0,
+    1,
+    2,
+    12,
+    13
+   ]
+  },
   "_Arcade/_rmCores/rm Cosmo Police Galivan (12-26-1985).mra": {
    "hash": "ef1b3bafd184b1c7d0094591da590f43",
    "size": 2527,
@@ -239,6 +572,39 @@
     2,
     6,
     7
+   ]
+  },
+  "_Arcade/_rmCores/rm Galmedes (Japan).mra": {
+   "hash": "adbb0dc7c80452d49f233d11a60486db",
+   "size": 3828,
+   "tags": [
+    0,
+    1,
+    2,
+    12,
+    13
+   ]
+  },
+  "_Arcade/_rmCores/rm Kokontouzai Eto Monogatari (Japan).mra": {
+   "hash": "293d575156232eaed4862962b074fd93",
+   "size": 3835,
+   "tags": [
+    0,
+    1,
+    2,
+    12,
+    13
+   ]
+  },
+  "_Arcade/_rmCores/rm Maze of Flott (Japan).mra": {
+   "hash": "9ba74067526f45200f617f85041f8e8e",
+   "size": 3692,
+   "tags": [
+    0,
+    1,
+    2,
+    12,
+    13
    ]
   },
   "_Arcade/_rmCores/rm Night Slashers (Korea Rev 1.3, DE-0397-0 PCB).mra": {
@@ -272,6 +638,17 @@
     2,
     10,
     11
+   ]
+  },
+  "_Arcade/_rmCores/rm U.N. Defense Force - Earth Joker (US-Japan, set 1).mra": {
+   "hash": "8bf188a0c5ff04110d2be9c3396f0d8e",
+   "size": 4146,
+   "tags": [
+    0,
+    1,
+    2,
+    12,
+    13
    ]
   },
   "_Arcade/_rmCores/rm Ufo Robo Dangar (4-09-1987).mra": {
@@ -329,6 +706,21 @@
    "tangle": [
     "rmseibucupsoccer_core"
    ]
+  },
+  "_Arcade/cores/rmTaitoAsuka_20260923.rbf": {
+   "hash": "b89502672b52cc31d37e299bb4318347",
+   "size": 4116172,
+   "tags": [
+    0,
+    1,
+    3,
+    4,
+    12,
+    13
+   ],
+   "tangle": [
+    "rmtaitoasuka_core"
+   ]
   }
  },
  "folders": {
@@ -356,6 +748,24 @@
     1
    ]
   },
+  "_Arcade/_rmCores/_alternatives/_rm Asuka & Asuka": {
+   "tags": [
+    0,
+    1
+   ]
+  },
+  "_Arcade/_rmCores/_alternatives/_rm Bonze Adventure": {
+   "tags": [
+    0,
+    1
+   ]
+  },
+  "_Arcade/_rmCores/_alternatives/_rm Cadash": {
+   "tags": [
+    0,
+    1
+   ]
+  },
   "_Arcade/_rmCores/_alternatives/_rm Cosmo Police Galivan": {
    "tags": [
     0,
@@ -369,6 +779,12 @@
    ]
   },
   "_Arcade/_rmCores/_alternatives/_rm Seibu Cup Soccer": {
+   "tags": [
+    0,
+    1
+   ]
+  },
+  "_Arcade/_rmCores/_alternatives/_rm U.N. Defense Force - Earth Joker": {
    "tags": [
     0,
     1
@@ -400,8 +816,10 @@
   "rmgalivan": 6,
   "rmnightslashers": 8,
   "rmseibucupsoccer": 10,
-  "seibucupsoccer": 11
+  "rmtaitoasuka": 12,
+  "seibucupsoccer": 11,
+  "taitoasuka": 13
  },
- "timestamp": 1789653799,
+ "timestamp": 1790236174,
  "v": 1
 }
