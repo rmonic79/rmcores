@@ -1,0 +1,5 @@
+# I file di questo repository vanno sulla SD del MiSTer byte per byte come
+# stanno nel commit: il downloader confronta l md5 di cio che scarica con
+# quello dichiarato nel db, calcolato sui file locali. Se git converte i fine
+# riga, i due valori divergono e il download fallisce.
+* -text
