@@ -1,7 +1,55 @@
 {
- "base_files_url": "https://raw.githubusercontent.com/rmonic79/rmcores/085c6eff2367af67cceb6cbe1fbfd97bca1e93f3/",
+ "base_files_url": "https://raw.githubusercontent.com/rmonic79/rmcores/9944c917e70f4e9bb4f0dffa8f715e2c9e2287b8/",
  "db_id": "rmonic79/rmcores",
  "files": {
+  "_Arcade/_rmCores/_alternatives/_Boogie Wings/rm Boogie Wings (Asia v1.5, 92.12.07).mra": {
+   "hash": "32ca17ab2348dae2a1f54731e751016d",
+   "size": 3343,
+   "tags": [
+    0,
+    1,
+    2,
+    5,
+    6,
+    7
+   ]
+  },
+  "_Arcade/_rmCores/_alternatives/_Boogie Wings/rm Boogie Wings (USA v1.7, 92.12.14).mra": {
+   "hash": "fd97b518c301684e64ddbe1e3754896c",
+   "size": 3291,
+   "tags": [
+    0,
+    1,
+    2,
+    5,
+    6,
+    7
+   ]
+  },
+  "_Arcade/_rmCores/_alternatives/_Boogie Wings/rm The Great Ragtime Show (Japan v1.3, 92.11.26).mra": {
+   "hash": "6ff74776709971c519e7576fb17ec155",
+   "size": 3311,
+   "tags": [
+    0,
+    1,
+    2,
+    5,
+    6,
+    7
+   ]
+  },
+  "_Arcade/_rmCores/_alternatives/_Boogie Wings/rm The Great Ragtime Show (Japan v1.5, 92.12.07).mra": {
+   "hash": "4420fce417a417b61acaf985bfdf9fc7",
+   "size": 3298,
+   "tags": [
+    0,
+    1,
+    2,
+    5,
+    6,
+    7
+   ]
+  },
   "_Arcade/_rmCores/_alternatives/_Night Slashers/rm Night Slashers (Japan Rev 1.2, DE-0397-0 PCB).mra": {
    "hash": "2183f3f96f4bf9594c6f229545147221",
    "size": 4906,
@@ -10,8 +58,8 @@
     1,
     2,
     5,
-    8,
-    9
+    10,
+    11
    ]
   },
   "_Arcade/_rmCores/_alternatives/_Night Slashers/rm Night Slashers (Over Sea Rev 1.2, DE-0397-0 PCB).mra": {
@@ -22,8 +70,8 @@
     1,
     2,
     5,
-    8,
-    9
+    10,
+    11
    ]
   },
   "_Arcade/_rmCores/_alternatives/_Night Slashers/rm Night Slashers (US Rev 1.2, DE-0395-1 PCB).mra": {
@@ -34,8 +82,8 @@
     1,
     2,
     5,
-    8,
-    9
+    10,
+    11
    ]
   },
   "_Arcade/_rmCores/_alternatives/_rm Asuka & Asuka/rm Asuka & Asuka (Japan).mra": {
@@ -46,8 +94,8 @@
     1,
     2,
     5,
-    12,
-    13
+    14,
+    15
    ]
   },
   "_Arcade/_rmCores/_alternatives/_rm Asuka & Asuka/rm Asuka & Asuka (Japan, rev 1).mra": {
@@ -58,8 +106,8 @@
     1,
     2,
     5,
-    12,
-    13
+    14,
+    15
    ]
   },
   "_Arcade/_rmCores/_alternatives/_rm Bonze Adventure/rm Bonze Adventure (US, rev 1).mra": {
@@ -70,8 +118,8 @@
     1,
     2,
     5,
-    12,
-    13
+    14,
+    15
    ]
   },
   "_Arcade/_rmCores/_alternatives/_rm Bonze Adventure/rm Bonze Adventure (World).mra": {
@@ -82,8 +130,8 @@
     1,
     2,
     5,
-    12,
-    13
+    14,
+    15
    ]
   },
   "_Arcade/_rmCores/_alternatives/_rm Bonze Adventure/rm Bonze Adventure (World, prototype, newer).mra": {
@@ -94,8 +142,8 @@
     1,
     2,
     5,
-    12,
-    13
+    14,
+    15
    ]
   },
   "_Arcade/_rmCores/_alternatives/_rm Bonze Adventure/rm Bonze Adventure (World, prototype, older).mra": {
@@ -106,8 +154,8 @@
     1,
     2,
     5,
-    12,
-    13
+    14,
+    15
    ]
   },
   "_Arcade/_rmCores/_alternatives/_rm Bonze Adventure/rm Jigoku Meguri (Japan).mra": {
@@ -118,8 +166,8 @@
     1,
     2,
     5,
-    12,
-    13
+    14,
+    15
    ]
   },
   "_Arcade/_rmCores/_alternatives/_rm Bonze Adventure/rm Jigoku Meguri (Japan, rev 1).mra": {
@@ -130,8 +178,8 @@
     1,
     2,
     5,
-    12,
-    13
+    14,
+    15
    ]
   },
   "_Arcade/_rmCores/_alternatives/_rm Cadash/rm Cadash (France).mra": {
@@ -142,8 +190,8 @@
     1,
     2,
     5,
-    12,
-    13
+    14,
+    15
    ]
   },
   "_Arcade/_rmCores/_alternatives/_rm Cadash/rm Cadash (Germany, oldest).mra": {
@@ -154,8 +202,8 @@
     1,
     2,
     5,
-    12,
-    13
+    14,
+    15
    ]
   },
   "_Arcade/_rmCores/_alternatives/_rm Cadash/rm Cadash (Germany, version 1).mra": {
@@ -166,8 +214,8 @@
     1,
     2,
     5,
-    12,
-    13
+    14,
+    15
    ]
   },
   "_Arcade/_rmCores/_alternatives/_rm Cadash/rm Cadash (Italy).mra": {
@@ -178,8 +226,8 @@
     1,
     2,
     5,
-    12,
-    13
+    14,
+    15
    ]
   },
   "_Arcade/_rmCores/_alternatives/_rm Cadash/rm Cadash (Japan, oldest).mra": {
@@ -190,8 +238,8 @@
     1,
     2,
     5,
-    12,
-    13
+    14,
+    15
    ]
   },
   "_Arcade/_rmCores/_alternatives/_rm Cadash/rm Cadash (Japan, version 1).mra": {
@@ -202,8 +250,8 @@
     1,
     2,
     5,
-    12,
-    13
+    14,
+    15
    ]
   },
   "_Arcade/_rmCores/_alternatives/_rm Cadash/rm Cadash (Japan, version 2).mra": {
@@ -214,8 +262,8 @@
     1,
     2,
     5,
-    12,
-    13
+    14,
+    15
    ]
   },
   "_Arcade/_rmCores/_alternatives/_rm Cadash/rm Cadash (Prototype).mra": {
@@ -226,8 +274,8 @@
     1,
     2,
     5,
-    12,
-    13
+    14,
+    15
    ]
   },
   "_Arcade/_rmCores/_alternatives/_rm Cadash/rm Cadash (Spain, oldest).mra": {
@@ -238,8 +286,8 @@
     1,
     2,
     5,
-    12,
-    13
+    14,
+    15
    ]
   },
   "_Arcade/_rmCores/_alternatives/_rm Cadash/rm Cadash (Spain, version 1).mra": {
@@ -250,8 +298,8 @@
     1,
     2,
     5,
-    12,
-    13
+    14,
+    15
    ]
   },
   "_Arcade/_rmCores/_alternatives/_rm Cadash/rm Cadash (US, version 1).mra": {
@@ -262,8 +310,8 @@
     1,
     2,
     5,
-    12,
-    13
+    14,
+    15
    ]
   },
   "_Arcade/_rmCores/_alternatives/_rm Cadash/rm Cadash (US, version 2).mra": {
@@ -274,8 +322,8 @@
     1,
     2,
     5,
-    12,
-    13
+    14,
+    15
    ]
   },
   "_Arcade/_rmCores/_alternatives/_rm Cadash/rm Cadash (World) LINK MASTER.mra": {
@@ -286,8 +334,8 @@
     1,
     2,
     5,
-    12,
-    13
+    14,
+    15
    ]
   },
   "_Arcade/_rmCores/_alternatives/_rm Cadash/rm Cadash (World) LINK SLAVE.mra": {
@@ -298,8 +346,8 @@
     1,
     2,
     5,
-    12,
-    13
+    14,
+    15
    ]
   },
   "_Arcade/_rmCores/_alternatives/_rm Cosmo Police Galivan/rm Cosmo Police Galivan (12-11-1985).mra": {
@@ -310,8 +358,8 @@
     1,
     2,
     5,
-    6,
-    7
+    8,
+    9
    ]
   },
   "_Arcade/_rmCores/_alternatives/_rm Cosmo Police Galivan/rm Cosmo Police Galivan (12-16-1985).mra": {
@@ -322,8 +370,8 @@
     1,
     2,
     5,
-    6,
-    7
+    8,
+    9
    ]
   },
   "_Arcade/_rmCores/_alternatives/_rm Ninja Emaki/rm Ninja Emaki (Tecfri license).mra": {
@@ -334,8 +382,8 @@
     1,
     2,
     5,
-    6,
-    7
+    8,
+    9
    ]
   },
   "_Arcade/_rmCores/_alternatives/_rm Ninja Emaki/rm Youma Ninpou Chou (Game Electronics bootleg, set 1).mra": {
@@ -346,8 +394,8 @@
     1,
     2,
     5,
-    6,
-    7
+    8,
+    9
    ]
   },
   "_Arcade/_rmCores/_alternatives/_rm Ninja Emaki/rm Youma Ninpou Chou (Game Electronics bootleg, set 2).mra": {
@@ -358,8 +406,8 @@
     1,
     2,
     5,
-    6,
-    7
+    8,
+    9
    ]
   },
   "_Arcade/_rmCores/_alternatives/_rm Ninja Emaki/rm Youma Ninpou Chou (Japan).mra": {
@@ -370,8 +418,8 @@
     1,
     2,
     5,
-    6,
-    7
+    8,
+    9
    ]
   },
   "_Arcade/_rmCores/_alternatives/_rm Ninja Emaki/rm Youma Ninpou Chou (Japan, alt).mra": {
@@ -382,8 +430,8 @@
     1,
     2,
     5,
-    6,
-    7
+    8,
+    9
    ]
   },
   "_Arcade/_rmCores/_alternatives/_rm Seibu Cup Soccer/rm Olympic Soccer '92 (set 1).mra": {
@@ -394,8 +442,8 @@
     1,
     2,
     5,
-    10,
-    11
+    12,
+    13
    ]
   },
   "_Arcade/_rmCores/_alternatives/_rm Seibu Cup Soccer/rm Olympic Soccer '92 (set 2).mra": {
@@ -406,8 +454,8 @@
     1,
     2,
     5,
-    10,
-    11
+    12,
+    13
    ]
   },
   "_Arcade/_rmCores/_alternatives/_rm Seibu Cup Soccer/rm Olympic Soccer '92 (set 3).mra": {
@@ -418,8 +466,8 @@
     1,
     2,
     5,
-    10,
-    11
+    12,
+    13
    ]
   },
   "_Arcade/_rmCores/_alternatives/_rm Seibu Cup Soccer/rm Seibu Cup Soccer (set 2).mra": {
@@ -430,8 +478,8 @@
     1,
     2,
     5,
-    10,
-    11
+    12,
+    13
    ]
   },
   "_Arcade/_rmCores/_alternatives/_rm Seibu Cup Soccer/rm Seibu Cup Soccer (set 3).mra": {
@@ -442,8 +490,8 @@
     1,
     2,
     5,
-    10,
-    11
+    12,
+    13
    ]
   },
   "_Arcade/_rmCores/_alternatives/_rm U.N. Defense Force - Earth Joker/rm U.N. Defense Force - Earth Joker (Japan, prototype).mra": {
@@ -454,8 +502,8 @@
     1,
     2,
     5,
-    12,
-    13
+    14,
+    15
    ]
   },
   "_Arcade/_rmCores/_alternatives/_rm U.N. Defense Force - Earth Joker/rm U.N. Defense Force - Earth Joker (US-Japan, set 2).mra": {
@@ -466,8 +514,8 @@
     1,
     2,
     5,
-    12,
-    13
+    14,
+    15
    ]
   },
   "_Arcade/_rmCores/_alternatives/_rm U.N. Defense Force - Earth Joker/rm U.N. Defense Force - Earth Joker (US-Japan, set 3).mra": {
@@ -478,8 +526,8 @@
     1,
     2,
     5,
-    12,
-    13
+    14,
+    15
    ]
   },
   "_Arcade/_rmCores/_alternatives/_rm Ufo Robo Dangar/rm Ufo Robo Dangar (12-1-1986).mra": {
@@ -490,8 +538,8 @@
     1,
     2,
     5,
-    6,
-    7
+    8,
+    9
    ]
   },
   "_Arcade/_rmCores/_alternatives/_rm Ufo Robo Dangar/rm Ufo Robo Dangar (9-26-1986, Japan).mra": {
@@ -502,8 +550,8 @@
     1,
     2,
     5,
-    6,
-    7
+    8,
+    9
    ]
   },
   "_Arcade/_rmCores/_alternatives/_rm Ufo Robo Dangar/rm Ufo Robo Dangar (9-26-1986, bootleg set 1).mra": {
@@ -514,8 +562,8 @@
     1,
     2,
     5,
-    6,
-    7
+    8,
+    9
    ]
   },
   "_Arcade/_rmCores/_alternatives/_rm Ufo Robo Dangar/rm Ufo Robo Dangar (9-26-1986, bootleg set 2).mra": {
@@ -526,8 +574,8 @@
     1,
     2,
     5,
-    6,
-    7
+    8,
+    9
    ]
   },
   "_Arcade/_rmCores/rm Asuka & Asuka (World).mra": {
@@ -537,8 +585,8 @@
     0,
     1,
     2,
-    12,
-    13
+    14,
+    15
    ]
   },
   "_Arcade/_rmCores/rm Bonze Adventure (World, rev 1).mra": {
@@ -548,8 +596,19 @@
     0,
     1,
     2,
-    12,
-    13
+    14,
+    15
+   ]
+  },
+  "_Arcade/_rmCores/rm Boogie Wings (Euro v1.5, 92.12.07).mra": {
+   "hash": "4bfd18d7ecf6581245fc7f2408ff31fc",
+   "size": 3588,
+   "tags": [
+    0,
+    1,
+    2,
+    6,
+    7
    ]
   },
   "_Arcade/_rmCores/rm Cadash (World).mra": {
@@ -559,8 +618,8 @@
     0,
     1,
     2,
-    12,
-    13
+    14,
+    15
    ]
   },
   "_Arcade/_rmCores/rm Cosmo Police Galivan (12-26-1985).mra": {
@@ -570,8 +629,8 @@
     0,
     1,
     2,
-    6,
-    7
+    8,
+    9
    ]
   },
   "_Arcade/_rmCores/rm Galmedes (Japan).mra": {
@@ -581,8 +640,8 @@
     0,
     1,
     2,
-    12,
-    13
+    14,
+    15
    ]
   },
   "_Arcade/_rmCores/rm Kokontouzai Eto Monogatari (Japan).mra": {
@@ -592,8 +651,8 @@
     0,
     1,
     2,
-    12,
-    13
+    14,
+    15
    ]
   },
   "_Arcade/_rmCores/rm Maze of Flott (Japan).mra": {
@@ -603,8 +662,8 @@
     0,
     1,
     2,
-    12,
-    13
+    14,
+    15
    ]
   },
   "_Arcade/_rmCores/rm Night Slashers (Korea Rev 1.3, DE-0397-0 PCB).mra": {
@@ -614,8 +673,8 @@
     0,
     1,
     2,
-    8,
-    9
+    10,
+    11
    ]
   },
   "_Arcade/_rmCores/rm Ninja Emaki (US).mra": {
@@ -625,8 +684,8 @@
     0,
     1,
     2,
-    6,
-    7
+    8,
+    9
    ]
   },
   "_Arcade/_rmCores/rm Seibu Cup Soccer (set 1).mra": {
@@ -636,8 +695,8 @@
     0,
     1,
     2,
-    10,
-    11
+    12,
+    13
    ]
   },
   "_Arcade/_rmCores/rm U.N. Defense Force - Earth Joker (US-Japan, set 1).mra": {
@@ -647,8 +706,8 @@
     0,
     1,
     2,
-    12,
-    13
+    14,
+    15
    ]
   },
   "_Arcade/_rmCores/rm Ufo Robo Dangar (4-09-1987).mra": {
@@ -658,8 +717,23 @@
     0,
     1,
     2,
+    8,
+    9
+   ]
+  },
+  "_Arcade/cores/rmBoogieWings_20260925.rbf": {
+   "hash": "3e040543d59565d722f333384cc1ed84",
+   "size": 4360032,
+   "tags": [
+    0,
+    1,
+    3,
+    4,
     6,
     7
+   ],
+   "tangle": [
+    "rmboogiewings_core"
    ]
   },
   "_Arcade/cores/rmGalivan_20260917.rbf": {
@@ -670,8 +744,8 @@
     1,
     3,
     4,
-    6,
-    7
+    8,
+    9
    ],
    "tangle": [
     "rmgalivan_core"
@@ -685,8 +759,8 @@
     1,
     3,
     4,
-    8,
-    9
+    10,
+    11
    ],
    "tangle": [
     "rmnightslashers_core"
@@ -700,8 +774,8 @@
     1,
     3,
     4,
-    10,
-    11
+    12,
+    13
    ],
    "tangle": [
     "rmseibucupsoccer_core"
@@ -715,8 +789,8 @@
     1,
     3,
     4,
-    12,
-    13
+    14,
+    15
    ],
    "tangle": [
     "rmtaitoasuka_core"
@@ -737,6 +811,12 @@
    ]
   },
   "_Arcade/_rmCores/_alternatives": {
+   "tags": [
+    0,
+    1
+   ]
+  },
+  "_Arcade/_rmCores/_alternatives/_Boogie Wings": {
    "tags": [
     0,
     1
@@ -808,18 +888,20 @@
   "arcade": 0,
   "arcadecores": 0,
   "arcaderbfsonly": 4,
+  "boogiewings": 7,
   "cores": 3,
-  "galivan": 7,
+  "galivan": 9,
   "mra": 2,
-  "nightslashers": 9,
+  "nightslashers": 11,
+  "rmboogiewings": 6,
   "rmcores": 1,
-  "rmgalivan": 6,
-  "rmnightslashers": 8,
-  "rmseibucupsoccer": 10,
-  "rmtaitoasuka": 12,
-  "seibucupsoccer": 11,
-  "taitoasuka": 13
+  "rmgalivan": 8,
+  "rmnightslashers": 10,
+  "rmseibucupsoccer": 12,
+  "rmtaitoasuka": 14,
+  "seibucupsoccer": 13,
+  "taitoasuka": 15
  },
- "timestamp": 1790238165,
+ "timestamp": 1790366175,
  "v": 1
 }
