@@ -1,5 +1,5 @@
 {
- "base_files_url": "https://raw.githubusercontent.com/rmonic79/rmcores/PROVA/",
+ "base_files_url": "https://raw.githubusercontent.com/rmonic79/rmcores/7920201f23b959d15ff46110922fee0b86f696d1/",
  "db_id": "rmonic79/rmcores",
  "files": {
   "_Arcade/_rmCores/_alternatives/_Boogie Wings/rm Boogie Wings (Asia v1.5, 92.12.07).mra": {
@@ -1022,6 +1022,6 @@
   "seibucupsoccer": 16,
   "taitoasuka": 18
  },
- "timestamp": 1790394672,
+ "timestamp": 1790394790,
  "v": 1
 }
