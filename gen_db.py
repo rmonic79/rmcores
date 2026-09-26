@@ -2,7 +2,7 @@
 """
 Genera db.json.zip per il Downloader del MiSTer (custom database).
 
-Scandisce _Arcade/ e produce il JSON con percorsi, MD5 e dimensioni, poi lo
+Scandisce _Arcade/ e _Console/ e produce il JSON con percorsi, MD5 e dimensioni, poi lo
 zippa. Schema: MiSTer-devel/Downloader_MiSTer, docs/custom-databases.md.
 
 Uso:
@@ -30,9 +30,22 @@ TAG_MRA     = 2
 TAG_CORES   = 3
 TAG_RBFONLY = 4
 TAG_ALTS    = 5
+TAG_CONSOLE = 6   # console / consolecores: i core non arcade (NeoGeo)
 TAGS = {"arcade": TAG_ARCADE, "arcadecores": TAG_ARCADE, "rmcores": TAG_RMCORES,
         "mra": TAG_MRA, "cores": TAG_CORES, "arcaderbfsonly": TAG_RBFONLY,
-        "alternatives": TAG_ALTS}
+        "alternatives": TAG_ALTS,
+        "console": TAG_CONSOLE, "consolecores": TAG_CONSOLE}
+
+# Tag in piu' per singolo core, oltre a quelli automatici. Servono a farsi
+# trovare dai filtri che la gente usa davvero: il NeoGeo ufficiale e' taggato
+# anche "consolecd" perche' include il Neo Geo CD, e chi filtra per quel
+# termine altrimenti non lo vedrebbe. Chiave = nome del core normalizzato.
+TAG_EXTRA = {"rmneogeo": ("consolecd",)}
+
+# Le due radici scandite, con il tag di famiglia di ciascuna. Un core console
+# (NeoGeo) NON va sotto _Arcade: sulla SD sta in _Console, e chi filtra per
+# "console" nel downloader.ini non lo troverebbe con il tag arcade.
+RADICI = (("_Arcade", TAG_ARCADE), ("_Console", TAG_CONSOLE))
 
 def tag_index(nome):
     """Indice del tag per un core, creandolo la prima volta che lo si incontra."""
@@ -60,23 +73,31 @@ def main():
         print(__doc__); return 1
     sha = sys.argv[1]
     files, folders = {}, {}
-    for dp, dn, fn in os.walk(os.path.join(ROOT, "_Arcade")):
+    for radice, tag_famiglia in RADICI:
+      base_dir = os.path.join(ROOT, radice)
+      if not os.path.isdir(base_dir):
+          continue
+      for dp, dn, fn in os.walk(base_dir):
         for f in fn:
             full = os.path.join(dp, f)
             rel  = os.path.relpath(full, ROOT).replace(os.sep, "/")
             entry = {"hash": md5(full), "size": os.path.getsize(full)}
-            tags = [TAG_ARCADE, TAG_RMCORES]
+            tags = [tag_famiglia, TAG_RMCORES]
             core = core_di(rel, full)
             if core:
                 tags.append(tag_index(core))
                 if core.lower().startswith("rm"):
                     tags.append(tag_index(core[2:]))   # anche senza il prefisso rm
+                for extra in TAG_EXTRA.get(re.sub(r"[-_]", "", core).lower(), ()):
+                    tags.append(tag_index(extra))
             # tangle: gli RBF sono datati, quindi se il nuovo non si scarica
             # quello vecchio NON va cancellato, o il core sparisce.
             if rel.endswith(".rbf"):
                 base = os.path.basename(rel).split("_")[0].lower()
                 entry["tangle"] = [base + "_core"]
-                tags += [TAG_CORES, TAG_RBFONLY]
+                tags.append(TAG_CORES)
+                if tag_famiglia == TAG_ARCADE:
+                    tags.append(TAG_RBFONLY)
             elif rel.endswith(".mra"):
                 tags.append(TAG_MRA)
                 if "/_alternatives/" in rel:
@@ -85,7 +106,7 @@ def main():
             files[rel] = entry
             d = os.path.dirname(rel)
             while d and d not in folders:
-                folders[d] = {"tags": [TAG_ARCADE, TAG_RMCORES]}
+                folders[d] = {"tags": [tag_famiglia, TAG_RMCORES]}
                 d = os.path.dirname(d)
     db = {
         "v": 1,
